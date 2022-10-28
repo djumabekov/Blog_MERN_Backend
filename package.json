@@ -5,14 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js start",
-    "start": "serve -s build",
-    "build": "node index.js build",
-    "test": "node index.js test --env=jsdom",
-    "eject": "node index.js eject",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "heroku-postbuild": "npm run build"
-
-  
   },
   "author": "",
   "license": "ISC",
